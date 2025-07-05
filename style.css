@@ -139,40 +139,66 @@ section h2 {
     text-decoration: none;
 }
 
-.about-buttons {
-    margin-top: 20px;
+.cta-buttons {
     display: flex;
-    flex-direction: row; /* Display buttons side-by-side */
+    flex-direction: row;
     align-items: center;
-    gap: 15px; /* Creates space between the buttons */
-    flex-wrap: wrap; /* Allow buttons to stack on smaller screens */
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.about-buttons p {
-    margin: 0; /* Remove default paragraph margin */
+.cta-buttons p {
+    margin: 0;
 }
 
-/* Custom button colors in About section */
-.about-buttons .instagram-button {
-    background-color: #E1306C; /* Instagram Red */
+/* Custom button colors in CTA section */
+.cta-buttons .instagram-button {
+    background-color: #E1306C;
     border-color: #E1306C;
     color: white;
 }
 
-.about-buttons .instagram-button:hover {
-    background-color: #c72a60; /* Darker Instagram Red */
+.cta-buttons .instagram-button:hover {
+    background-color: #c72a60;
     border-color: #c72a60;
 }
 
-.about-buttons .ratings-button {
-    background-color: #4285F4; /* Google Blue */
+.cta-buttons .ratings-button {
+    background-color: #4285F4;
     border-color: #4285F4;
     color: white;
 }
 
-.about-buttons .ratings-button:hover {
-    background-color: #3367d6; /* Darker Google Blue */
+.cta-buttons .ratings-button:hover {
+    background-color: #3367d6;
     border-color: #3367d6;
+}
+
+/* WhatsApp CTA Section */
+.whatsapp-cta-section {
+    padding: 20px 0;
+    background-color: #f4f4f4; /* Match body background */
+    text-align: center;
+}
+
+.whatsapp-cta-section .whatsapp-cta-button {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    border: 2px solid #25D366;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.whatsapp-cta-section .whatsapp-cta-button:hover {
+    background-color: #1EBE57;
+    border-color: #1EBE57;
+    color: white;
+    text-decoration: none;
 }
 
 /* Services Section */
