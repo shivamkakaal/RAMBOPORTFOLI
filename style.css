@@ -361,6 +361,23 @@ footer {
         font-size: 2em;
     }
 
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
     .contact-container {
         flex-direction: column;
         align-items: center;
@@ -378,6 +395,7 @@ footer {
         width: 100%;
         max-width: 300px;
     }
+
     .hero-content h1 {
         font-size: 2em;
     }
@@ -389,10 +407,21 @@ footer {
     .cta-button {
         padding: 12px 24px;
         font-size: 0.9em;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .whatsapp-cta-section .whatsapp-cta-button {
+        width: 100%;
+        max-width: 320px;
     }
 
     .service-cards, .project-grid, .testimonial-cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .about-text {
+        padding: 0 10px;
     }
 }
